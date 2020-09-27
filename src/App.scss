@@ -1,0 +1,175 @@
+// .App {
+//   text-align: center;
+// }
+
+// .App-logo {
+//   height: 40vmin;
+//   pointer-events: none;
+// }
+
+// @media (prefers-reduced-motion: no-preference) {
+//   .App-logo {
+//     animation: App-logo-spin infinite 20s linear;
+//   }
+// }
+
+// .App-header {
+//   background-color: #282c34;
+//   min-height: 100vh;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   font-size: calc(10px + 2vmin);
+//   color: white;
+// }
+
+// .App-link {
+//   color: #61dafb;
+// }
+
+// @keyframes App-logo-spin {
+//   from {
+//     transform: rotate(0deg);
+//   }
+//   to {
+//     transform: rotate(360deg);
+//   }
+// }
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+#root{
+    // position: absolute;
+    // top: 0;
+    // left: 0;
+    // bottom: 0;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    &>div{
+        height: 100%;
+    }
+}
+.anticon-menu-unfold{
+    position: relative;
+    svg{
+        color: #001529;
+        position: absolute;
+        top: 25px;
+        left: 1px;
+        z-index: 1000;
+    }
+}
+.anticon-menu-fold{
+
+    position: relative;
+    svg{
+        color: #001529;
+        position: absolute;
+        top: 25px;
+        left: 1px;
+        z-index: 1000;
+    }
+}
+#root .ant-layout-header{
+    background-color: #001529;
+}
+#root .ant-layout-sider-children{
+    // height: 100%;
+    padding-top: 76px;
+}
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  #components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+  }
+  
+  #components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.2);
+    margin: 16px;
+  }
+  
+  .site-layout .site-layout-background {
+    background: #fff;
+  }
+  .ant-layout,.ant-layout-sider-children{
+      height: 100% !important;
+  }
+
+  .ant-layout-content{
+      overflow: hidden;
+      overflow-y: auto;
+  }
+  .home_menu{
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+  }
+  .list_menu{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+  .single_menu{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .ant-layout-sider-trigger{
+      position:absolute;
+      top: 10px;
+      left: 10px;
+      background-color: #001529;
+
+      &::after{
+          position: absolute;
+          content:'租房后台管理系统';
+          display:block;
+          width:200px;
+          height: 100px;
+          top: 3px;
+          left: 190px;
+          font-size: 20px;
+          font-weight: 700;
+      }
+
+      img{
+          width: 200px;
+          height: 48px;
+      }
+  }
+  .ant-layout-sider{
+      position: relative;
+  }
+  .ht_username{
+    float: right;
+    color: white;
+    margin-right: 30px;
+}
+
+  .login_btn{
+      color: white;
+      float: right;
+      margin-right: 40px;
+      cursor: pointer;
+      text-decoration: underline;
+  }
+  .logout_btn{
+      color: white;
+      float: right;
+      margin-right: 40px;
+      cursor: pointer;
+      text-decoration: underline;
+  }

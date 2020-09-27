@@ -1,0 +1,132 @@
+.login_page{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background: url(https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=8258883,35316549&fm=26&gp=0.jpg) no-repeat center/cover;
+    z-index: 9999999;
+
+
+}
+
+
+.login_square{
+    width: 370px;
+    height: 300px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    margin: auto;
+    background-color: cadetblue;
+}
+
+
+.login_nav{
+    margin-left:10px;
+}
+.login_header{
+     background-color:#FF9696;
+    height:45px;
+    line-height:45px;
+}
+
+.login_banner{
+    background-color:#FF9696;
+    height:160px;
+    text-align:center;
+
+    img{
+        height:67px;
+        width:170px;
+    }
+}
+.login_box{
+    width:307px;
+    box-sizing:border-box;
+    margin:auto;
+    margin-top:40px;
+}
+
+.login_username{
+    border-radius:22px 22px;
+    text-align:center;
+    height:44px;
+    width:307px;
+    background-color:#F2F2F2;
+    line-height:44px;
+    margin-bottom:14px;
+    position:relative;
+
+    img{
+        height:15px;
+        position:absolute;
+         top:15px;
+        left:31px;
+    }
+
+    input{
+        background-color:#F2F2F2;
+        border:none;
+        outline:none;
+        height:22px;
+    }
+}
+.login_password{
+    border-radius:22px 22px;
+    text-align:center;
+    height:44px;
+    width:307px;
+    background-color:#F2F2F2;
+    line-height:44px;
+    position:relative;
+
+       img{
+        height:15px;
+        position:absolute;
+        top:15px;
+        left:31px;
+    }
+    
+    input{
+        background-color:#F2F2F2;
+        border:none;
+        outline:none;
+        height:22px;
+    }
+}
+
+.ht_submit{
+    width:100%;
+    text-align:center;
+}
+// .login_btn{
+//     background-color:#BDBDBE;
+//     border:none;
+//     margin:auto;
+//     margin-top:35px;
+    
+// }
+
+// .ant-menu-item-active {
+//     color:#EF4C55 !important;
+// }
+
+// .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected, .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected{
+//     border-bottom:#EF4C55;
+// }
+
+// .ant-menu{
+//     padding:0 20px;
+//     display:flex;
+//     justify-content:space-around;
+// }
+// .ant-menu-item{
+//     width:30%;
+//     text-align:center;
+// }
